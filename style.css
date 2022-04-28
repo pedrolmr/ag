@@ -5,6 +5,12 @@
     font-family: 'Libre Franklin', sans-serif;
     color: #081c15;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b4332;
+}
 
 .container{
     background-color: #1b4332;
@@ -14,14 +20,16 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    padding:1.5rem;
+    width: 650px;
+    padding: 1.5rem;
 }
 .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width:600px;
+    width:100%;
+    padding:10px;
     text-align: center;
     height:300px;
     background-color: #2d6a4f;
@@ -57,3 +65,4 @@
     transform: translate(-50%,-50%);
     
 }
+/**/
